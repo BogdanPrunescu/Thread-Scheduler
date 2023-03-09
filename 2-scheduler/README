@@ -1,0 +1,11 @@
+Prunescu Bogdan-Andrei 321CA
+
+    Pentru a simula un planificator de threaduri am folosit o structura pentru
+a retine informatii generale despre scheduler si o structura pentru a retine
+informatiile necesare unui thread.
+    Pe langa functiile cerute in enuntul temei am implementat o coada de
+prioritati cu o lista simplu intantuita pe care am folosit-o la rularea
+threadului cu cea mai mare prioriate. In plus am implementat doua noi
+functii: start_thread care va oprii threadul pana cand va trebui sa ruleze si
+functia scheduler care se ocupa de actualizarea threadului care trebuie sa
+ruleze.
